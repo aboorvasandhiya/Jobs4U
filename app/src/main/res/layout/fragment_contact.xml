@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactFragment">
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:src="@drawable/arrowback"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_medium"
+        android:backgroundTint="#FFF000"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500dp"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Contact Us"
+        android:textColor="@color/black"
+        android:textSize="36dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:fontFamily="@font/roboto"
+        android:textSize="18dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="120dp"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:id="@+id/contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/rectangular_border"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textSize="18dp"
+        android:fontFamily="@font/roboto"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="180dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/contact_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/rectangular_border"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="18dp"
+        android:fontFamily="@font/roboto"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="240dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/contact_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="270dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/rectangular_border"
+        android:ems="10"
+        />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Feedback/Query"
+        android:fontFamily="@font/roboto"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/contact_complaint"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/rectangular_border"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="145dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/circle2"
+        android:layout_marginLeft="300dp"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="323dp"
+        android:layout_height="607dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="420dp"
+        android:src="@drawable/circle1" />
+
+</FrameLayout>

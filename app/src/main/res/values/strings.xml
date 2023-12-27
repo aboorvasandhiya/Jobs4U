@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">jobs4u</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="a"></string>
+    <string name="b"></string>
+    <string name="c"></string>
+    <string name="d"></string>
+    <string name="e"></string>
+    <string name="f"></string>
+    <string name="correct"><b>CORRECTNESS IS</b> \n
+                           <b>%1$d</b> OUT OF 6</string>
+    <string name="correct_answer">That\'s correct</string>
+    <string name="wrong_answer">That\'s incorrect</string>
+</resources>
